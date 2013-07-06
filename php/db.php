@@ -1,8 +1,8 @@
 <?php
     
-    $localhost  = 'improvy.mysql'; // хост
-    $dbuser     = 'improvy_mysql';      // имя пользователя
-    $dbpassword = 'raugnhsa';          // пароль
+    $localhost  = 'localhost'; // хост
+    $dbuser     = 'root';      // имя пользователя
+    $dbpassword = '';          // пароль
     $database   = 'improvy_db';      // база данных
     
     /*
