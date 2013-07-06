@@ -1,6 +1,6 @@
 <?php
 
-class Controller_Contacts extends Controller
+class Controller_about extends Controller
 {
 	
 	function action_index()
@@ -46,6 +46,6 @@ class Controller_Contacts extends Controller
 			}
 		}
 		
-		$this->view->generate('contacts_view.php', 'template_view.php');
+		$this->view->generate('about_view.php', 'template_view.php');
 	}
 }

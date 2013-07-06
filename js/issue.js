@@ -9,7 +9,7 @@ $(function() {
 	var pages = Math.round(len / It_on_page) + 1;
 	if (len > 10){
 		for (var i = 1; i <= pages; i++) {
-			$("#nav_num").append("<li class='disable nums'><a href='#page"+i+"'>" + i + "</a></li>")
+			$("#nav_num").append("<li class='disable nums'><a href='#page"+i+"' onclick='scroll(0,0)''>" + i + "</a></li>")
 		}
 	}
 	var temp;

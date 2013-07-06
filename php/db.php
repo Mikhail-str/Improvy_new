@@ -2,7 +2,7 @@
     
     $localhost  = 'localhost'; // хост
     $dbuser     = 'root';      // имя пользователя
-    $dbpassword = '';          // пароль
+    $dbpassword = 'root';          // пароль
     $database   = 'improvy_db';      // база данных
     
     /*

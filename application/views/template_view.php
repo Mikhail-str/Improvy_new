@@ -107,7 +107,7 @@
                                 <a class="brand" href="/main">ImprovY <sub><i>beta</i></sub> </a> 
                                 <a class="brand" href="/main">Санкт-Петербург</a>
                                 <ul class="nav pull-right">
-                                    <li><a href='/contacts'>О нас</a></li>
+                                    <li><a href='/about'>О нас</a></li>
                                     
                                     <?php
                                    if (!isset($_SESSION['id'])) {
