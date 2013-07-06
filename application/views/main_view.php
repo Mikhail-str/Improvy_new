@@ -1,3 +1,7 @@
+<?php
+    $url = "/courses/languages";
+    header('Location: '.$url);
+    ?>
 <div class="container pad">
     <section id="carousel">
     <div class="row">
