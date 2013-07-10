@@ -9,7 +9,7 @@
         <div class="span3">
 
             <div id="side" >
-
+            <!--
               <h3><li><a href="sport">Спорт/Фитнес</a></li></h3>
               <ul class="nav nav-list">
                                 <li><a href="yoga">Yoga</a></li>
@@ -18,7 +18,7 @@
                                 <li><a href="tennis">Теннис</a></li>
                                 <li><a href="run">Бег</a></li>
                                 <li><a href="stretching">Стречинг</a></li>
-              </ul>
+              </ul> 
 
               <h3><li><a href="martial">Боевые искусства</a></li></h3>
               <ul class="nav nav-list">
@@ -37,6 +37,7 @@
                                 <li><a href="design">Дизайн</a></li>
                                 <li><a href="editing">Видеомонтаж</a></li>
               </ul>
+                -->
 
               <h3><li><a href="languages">Иностранные языки</a></li></h3>
               <ul class="nav nav-list">
@@ -47,7 +48,7 @@
                                 <li><a href="german">Немецкий</a></li>
                                 <li><a href="chinese">Китайский</a></li>
               </ul>
-
+              
               <h3><li><a href="dances">Танцы</a></li></h3>
               <ul class="nav nav-list">
                                 <li><a href="clubdance">Клубные танцы</a></li>
@@ -68,6 +69,7 @@
 								<li><a href="narodnie">Народные</a></li>
 								<li><a href="other_dance">Другие</a></li>			
 				</ul>
+            
             </div>
         </div>
 
