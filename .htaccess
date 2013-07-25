@@ -2,3 +2,5 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule .* index.php [L]
+Redirect /main http://improvy.ru/courses/languages
+RewriteRule ^$ http://improvy.ru/courses/languages [R=301,L]
