@@ -43,6 +43,7 @@ $(function() {
 $(function() {
 	$("#sub").click(function() {
 		$(".err").remove();
+		$("#sub").hide();
 		var cname = $("#Inputname").val();
 		var name = $("#fio").val();
 		var email = $("#inputEmail").val();
@@ -50,22 +51,21 @@ $(function() {
 		var site = $("#Site").val();
 		var phone = $("#Phone").val();
 		var logo = $("#logo").val();
+		var validate = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
 
-
-
-		if (/^[a-zA-Z0-9](([a-z0-9\-_\+\&]?)+[a-z0-9])?\@((\w([a-zA-Z0-9\-_]+\w)?\.[a-z]{2,4})|(([01]?\d\d|2[0-4]\d|25[0-5])\.([01]?\d\d|2[0-4]\d|25[0-5])\.([01]?\d\d |2[0-4]\d|25[0-5])\.([01]?\d\d|2[0-4]\d|25[0-5]))|(localhost))$/i.test(email)) {
-
-		} else {
+		if (!validate.test(email)) {
 			$("#1").append("<p class='err' style='color:red'>Email введен не верно</p>");
+			$("#sub").show();
 			return false;
 		}
-
 
 		if(cname == '' || name == '' || address == '' || phone == '') {
 			$("#1").append("<p class='err' style='color:red'>Заполните все обязательные поля</p>");
+			$("#sub").show();
 			return false;
 		}
 		////////
+		$("#sub").after("<p class='text-info'  id='wait_mes'>Пожалуйста подождите</p>");
 		$.ajax({
 			type: "POST",
 			url: '/php/registration.php',

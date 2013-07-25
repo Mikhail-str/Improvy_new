@@ -1,4 +1,4 @@
-<div class = "texture">
+<div class = "texture_cour">
   <div class = "container">
     <div class="row">
       <div class = "span12 hero-unit2">

@@ -270,18 +270,27 @@ border-width: 1px;
         .margino{
             margin: 0px !important;
         }
-.texture{
+.texture_reg{
     
-    background: url('../images/bg6.gif');
+    background: url('../images/white_carbon.png');
     position: relative;
     margin-top: 40px;
     padding: 60px;
     margin-bottom: 10px;
     text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075) ;
-    color: white;      
+    color: #005580;      
 }
 
-
+.texture_cour{
+    
+    background: url('../images/white_carbon.png');
+    position: relative;
+    /*margin-top: 40px;*/
+    padding: 60px;
+    /*margin-bottom: 10px;*/
+    text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075) ;
+    color: #005580;      
+}
 
 .hero-unit2 h1 {
   text-align: center;  
@@ -327,3 +336,8 @@ border-width: 1px;
     margin-top: 40px;
 }
 
+.notfound{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 30%;
+}
